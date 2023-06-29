@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.container{
+    display: flex;
+    padding: 50px;
+}
+
+.about{
+    background-color: #DFDDDD;
+    width: max-content 30% min-content 30%;
+}
+
+.contact h2,
+.education h2,
+.skills h2,
+.tskills h2,
+.pskills h2,
+.certifications h2{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4B4B4B;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.contact div li,
+.education div,
+.skills div,
+.tskills div li,
+.pskills div li,
+.certifications div li{
+    margin: 10px 20px;
+    list-style: none;
+}
+
+.skills li{
+    list-style: none;
+    margin: 2px 0;
+}
+
+.experience{
+    width: auto;
+}
+
+.wrkexperience div li{
+    margin: 5px 15px;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.name{
+    max-height: 10%;
+    font-size: 70px;
+    margin: 20px 30px 0 30px;
+}
+
+#btnDownload{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #4B4B4B;
+    color: #ffffff;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+}
+
+#btnDownload:hover{
+    cursor: pointer;
+}
+
+.wrkexperience,
+.references{
+    margin: 0 30px;
+}
+
+.wrkexperience h2,
+.references h2{
+    padding: 10px;
+    text-align: center;
+    background-color: #4B4B4B;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.rcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item{
+    margin: 5px;
+}
